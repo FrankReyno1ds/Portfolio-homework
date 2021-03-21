@@ -1,22 +1,23 @@
 *{
     text-decoration: none;
+    
 }
 
 header {
     /* background-color: gray;*/
-    background-color: lightblue;
+    background-color:skyblue;
 }
 
 header .header-brand{
     font-size: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 500px;
+    font-weight: 700px;
     /* color: deepskyblue; */
-    color:black;
+    color:gray;
     display: block;
     margin: 0 auto;
     text-align: center;
-    padding-bottom: 25px;
+    padding-bottom: 5px;
     padding-top: 20px;
 }
 
@@ -36,5 +37,25 @@ header nav ul li{
 }
 
 header nav ul li a{
-    
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+section .Subtitle-banner{
+  width: 100%;
+  height: 15vh;
+  background-image: url(Striped\ Img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+section .Subtitle-banner a{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+   text-align: center;
+
 }
